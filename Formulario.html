@@ -1,13 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <form action="">
+  </head>
+  <body>
+    <form action="" method="GET">
+      <label for="name">Nombre</label>
+      <input id="name" type="text" placeholder="Nombre" required />
+      <label>Apellido</label>
+      <input type="text" id="lastname" placeholder="Apellido" />
+      <br /><br />
 
+      <label for="age">Edad</label>
+      <input value="31" id="age" type="text" id="lastname" placeholder="Edad" />
+
+      <br /><br />
+      <label for="">Superheros</label>
+      <input type="superheroes" name="list" />
+      <datalist id="superheroes">
+        <option label="Iron Man" value="Iron Man"></option>
+        <option label="Peru" value="Peru"></option>
+      </datalist>
+      <br /><br />
+      <label for="">Nacionalidad</label>
+      <select name="" id="country">
+        <option value="">Selecciona tu País</option>
+        <option value="1">Perú</option>
+        <option value="2">Chile</option>
+        <option selected value="3">Colombia</option>
+        <option value="4">Bolivia</option>
+        <option value="5">Ecuador</option>
+        <option value="6">Brasil</option>
+      </select>
+      <label for="">Distrito</label>
+      <select name="" id="country">
+        <option value="">Selecciona tu Distrito</option>
+        <option value="1">La Molina</option>
+        <option value="2">Ate</option>
+        <option selected value="3">Lince</option>
+        <option value="4">San Isidro</option>
+        <option value="5">Miraflores</option>
+        <option value="6">Brasil</option>
+      </select>
+
+      <br /><br />
+      <label for="celular">Celular</label>
+      <input id="celular" type="email" placeholder="celular" />
+
+      <label for="email">Correo</label>
+      <input id="email" type="email" placeholder="Correo" />
+      <br /><br />
+
+      <label for="sex">Sexo</label>
+      <label>
+        <input type="radio" name="sex" checked />
+        F
+      </label>
+      <label>
+        <input type="radio" name="sex" />
+        M
+      </label>
+      <br /><br />
+      <label for="celular">Artista Favorito</label>
+      <input id="celular" type="email" placeholder="celular" />
+      <br /><br />
+      <label for="sex">¿Tiene Mascotas?</label>
+      <label>
+        <input type="radio" name="sex" checked />
+        F
+      </label>
+      <label>
+        <input type="radio" name="sex" />
+        M
+      </label>
+      <br /><br />
+      <label for="">Comentarios</label><br />
+      <textarea name="" id="" cols="20" rows="6"> </textarea>
+
+      <br /><br />
+      <button>Enviar</button>
     </form>
-</body>
+  </body>
 </html>
