@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form action="formulario.php" method="POST">
+      <fieldset>
+        <legend>Nombre</legend>
+        <label for="name">Nombre</label>
+        <input id="name" type="text" placeholder="Nombre" required />
+        <label>Apellido</label>
+        <input type="text" id="lastname" placeholder="Apellido" />
+      </fieldset>
+      <br /> <progress value="70"></progress>
+      <br />
+     </progress>
+      <label for="email">Correo</label>
+      <input id="email" type="email" placeholder="Correo" />
+
+      <label for="age">Edad</label>
+      <input value="31" id="age" type="text" id="lastname" placeholder="Edad" />
+      <br />
+      <br />
+
+      <label for="country">Pais</label>
+      <select name="" id="country">
+        <option value="">Selecciona tu País</option>
+        <option value="1">Perú</option>
+        <option value="2">Chile</option>
+        <option selected value="3">Colombia</option>
+        <option value="4">Bolivia</option>
+        <option value="5">Ecuador</option>
+        <option value="6">Brasil</option>
+      </select>
+
+      <label for="sex">Sexo</label>
+      <label>
+        <input type="radio" name="sex" checked />
+        F
+      </label>
+      <label>
+        <input type="radio" name="sex" />
+        M
+      </label>
+      <br />
+      <br />
+      <label for="hobbies">Hobbies</label><br />
+      <label> <input type="checkbox" />Futbol </label>
+      <label> <input type="checkbox" />Voley </label>
+      <label> <input type="checkbox" />Natación </label>
+      <label> <input type="checkbox" checked required />Futbol </label>
+      <br /><br />
+      <label for="district">Distrito</label>
+      <select name="district" id="district" multiple>
+        <option value="">Selecciona tu distrito</option>
+        <option value="1">Lince</option>
+        <option value="2">Los Olivos</option>
+        <option value="3">Ate</option>
+      </select>
+      <label for="">Número de celular</label>
+      <input type="tel" />
+      <br /><br />
+      <label for="">Comentarios</label>
+      <textarea name="" id="" cols="30" rows="10"> </textarea>
+      <br /><br />
+      <button style="color: white; background-color: green;">Enviar</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
